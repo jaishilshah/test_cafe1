@@ -37,5 +37,13 @@
 <div id="page1">
     <img src="./Menu1.jpg" alt="Page 1 Image">
 </div>
+<script>
+        function refreshPage() {
+          //  console.log("Page refreshed at: " + new Date().toLocaleString());/
+            location.reload();
+        }
+        setInterval(refreshPage, 180000); // 3 minutes
+        console.log("Page refreshed at: " + new Date().toLocaleString());
+    </script>
 </body>
 </html>
